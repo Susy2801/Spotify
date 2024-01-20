@@ -1,0 +1,152 @@
+@media only screen and (max-width: 896px) {
+  /* CSS rules specific to iPhone XS Max */
+  * {
+    box-sizing: border-box;
+  }
+
+  .html {
+    font-size: 62.5%;
+  }
+
+  .body {
+    font-size: 1.6rem;
+  }
+
+  .safe-zone {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+  }
+
+  .form-container {
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    color: white;
+    font-family: "SF Pro Display", sans-serif;
+    overflow: hidden;
+    transition: 0.5s ease;
+  }
+
+  .logo {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+  }
+
+  .logo img {
+    /* width: 133px; */
+    width: 300px;
+    transition: 0.5s ease;
+  }
+
+  .form-message {
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-message h1 {
+    padding-top: 80px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .form-message h2 {
+    color: #fff;
+    font-size: 0.8rem;
+    margin-top: 16px;
+  }
+
+  .form-message a {
+    color: rgba(30, 215, 96, 1);
+    text-decoration: none;
+  }
+
+  .input-container {
+    margin-top: 32px;
+    width: 378px;
+    margin: 32px auto;
+  }
+
+  .input-box {
+    border-radius: 32px;
+    border: solid whitesmoke 1px;
+    background: #000;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 72px;
+    padding: 24px;
+    color: white;
+  }
+
+  .password-container {
+    position: relative;
+    margin-top: 16px;
+  }
+
+  .togglepassword-btn {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .input-container a {
+    text-align: start;
+    color: white;
+    display: block;
+    margin: 16px 16px;
+  }
+
+  .login-btn {
+    border-radius: 80px;
+    background: #42c83c;
+    width: 100%;
+    height: 72px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+  }
+
+  .login-btn:active {
+    background: #297c25;
+  }
+
+  .or {
+    text-align: center;
+    position: relative;
+    margin-top: 24px;
+    font-size: 0.9rem;
+  }
+
+  .or::after {
+    content: "";
+    width: 41%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+
+  .or::before {
+    content: "";
+    width: 41%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+  }
+}

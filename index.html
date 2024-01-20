@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font -->
+    <link
+      href="https://fonts.cdnfonts.com/css/sf-pro-display"
+      rel="stylesheet"
+    />
+
+    />
+    <!-- Reset style -->
+    <link rel="stylesheet" href="./asset/css/reset.css" />
+    <!-- Style -->
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <title>Spotify</title>
+  </head>
+  <body>
+    <div class="safe-zone"></div>
+    <form action="">
+      <div class="logo" id="logo">
+        <img
+          src="./asset/img/Spotify_Logo_RGB_Green.svg"
+          alt="spotify_logo"
+          id="logo-img"
+        />
+      </div>
+      <div class="form-container" id="form">
+        <div class="form-message">
+          <h1>Log In</h1>
+          <h2>If You Need Any Support <a href="#!">Click Here</a></h2>
+        </div>
+        <div class="input-container">
+          <input
+            type="text"
+            name=""
+            id="username"
+            placeholder="Enter Username or Email"
+            class="input-box"
+          />
+          <div class="password-container">
+            <input
+              type="password"
+              name=""
+              id="password"
+              placeholder="Password"
+              class="input-box"
+            />
+
+            <i
+              class="fa-regular fa-eye togglepassword-btn"
+              onclick="togglePassword()"
+            ></i>
+          </div>
+          <a href="#!">Forgot password?</a>
+          <input type="submit" value="Log In" class="login-btn" />
+          <div class="or">Or</div>
+        </div>
+      </div>
+    </form>
+    <script src="./asset/script/script.js"></script>
+  </body>
+</html>
