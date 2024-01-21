@@ -21,3 +21,7 @@ function togglePassword() {
 }
 
 pageLoading();
+
+function login() {
+  window.location.href = "page2.html";
+}

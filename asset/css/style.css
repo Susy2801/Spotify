@@ -45,6 +45,10 @@
     transition: 0.5s ease;
   }
 
+  .logo img:hover {
+    width: 300px;
+  }
+
   .form-message {
     width: 100%;
     text-align: center;

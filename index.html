@@ -19,8 +19,6 @@
       href="https://fonts.cdnfonts.com/css/sf-pro-display"
       rel="stylesheet"
     />
-
-    />
     <!-- Reset style -->
     <link rel="stylesheet" href="./asset/css/reset.css" />
     <!-- Style -->
@@ -28,7 +26,6 @@
     <title>Spotify</title>
   </head>
   <body>
-    <div class="safe-zone"></div>
     <form action="login">
       <div class="logo" id="logo">
         <img
@@ -65,7 +62,12 @@
             ></i>
           </div>
           <a href="#!">Forgot password?</a>
-          <input type="submit" value="Log In" class="login-btn" />
+          <input
+            type="submit"
+            value="Log In"
+            class="login-btn"
+            onclick="login()"
+          />
           <div class="or">Or</div>
         </div>
       </div>
